@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,11 @@
 		07D2883722A7545A003E5F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D2883622A7545A003E5F9D /* Assets.xcassets */; };
 		07D2883A22A7545A003E5F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D2883822A7545A003E5F9D /* LaunchScreen.storyboard */; };
 		07D2884522A7545A003E5F9D /* SampleChikenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2884422A7545A003E5F9D /* SampleChikenUITests.swift */; };
+		07D2885022A7547A003E5F9D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2884F22A7547A003E5F9D /* ThirdViewController.swift */; };
+		07D2885222A75485003E5F9D /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2885122A75485003E5F9D /* CommonViewController.swift */; };
+		07D2885422A75658003E5F9D /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2885322A75658003E5F9D /* ForthViewController.swift */; };
+		537910B56BC0F776F4938EF7 /* Pods_SampleChiken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B3B0C2F26F149B4A796342 /* Pods_SampleChiken.framework */; };
+		C64B0259C65806A8ABA3D16A /* Pods_SampleChikenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8649A1FB638B41A21231BE9 /* Pods_SampleChikenUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,15 @@
 		07D2884022A7545A003E5F9D /* SampleChikenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleChikenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D2884422A7545A003E5F9D /* SampleChikenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChikenUITests.swift; sourceTree = "<group>"; };
 		07D2884622A7545A003E5F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D2884F22A7547A003E5F9D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		07D2885122A75485003E5F9D /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		07D2885322A75658003E5F9D /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		29D9E82249596C666AEAE42B /* Pods-SampleChikenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChikenUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleChikenUITests/Pods-SampleChikenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52743AB5DE930259ED2C7AC5 /* Pods-SampleChiken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChiken.debug.xcconfig"; path = "Target Support Files/Pods-SampleChiken/Pods-SampleChiken.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B3B0C2F26F149B4A796342 /* Pods_SampleChiken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChiken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04ABFABBF428768C66C1C56 /* Pods-SampleChikenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChikenUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleChikenUITests/Pods-SampleChikenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7B3E432C0E28BDF20B57D21 /* Pods-SampleChiken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChiken.release.xcconfig"; path = "Target Support Files/Pods-SampleChiken/Pods-SampleChiken.release.xcconfig"; sourceTree = "<group>"; };
+		F8649A1FB638B41A21231BE9 /* Pods_SampleChikenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChikenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537910B56BC0F776F4938EF7 /* Pods_SampleChiken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64B0259C65806A8ABA3D16A /* Pods_SampleChikenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +80,8 @@
 				07D2882C22A75458003E5F9D /* SampleChiken */,
 				07D2884322A7545A003E5F9D /* SampleChikenUITests */,
 				07D2882B22A75458003E5F9D /* Products */,
+				0FB01261734AC1E4580A6E68 /* Pods */,
+				7215F9C1B07DD3C047265D1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +104,9 @@
 				07D2883622A7545A003E5F9D /* Assets.xcassets */,
 				07D2883822A7545A003E5F9D /* LaunchScreen.storyboard */,
 				07D2883B22A7545A003E5F9D /* Info.plist */,
+				07D2884F22A7547A003E5F9D /* ThirdViewController.swift */,
+				07D2885122A75485003E5F9D /* CommonViewController.swift */,
+				07D2885322A75658003E5F9D /* ForthViewController.swift */,
 			);
 			path = SampleChiken;
 			sourceTree = "<group>";
@@ -99,6 +120,26 @@
 			path = SampleChikenUITests;
 			sourceTree = "<group>";
 		};
+		0FB01261734AC1E4580A6E68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52743AB5DE930259ED2C7AC5 /* Pods-SampleChiken.debug.xcconfig */,
+				E7B3E432C0E28BDF20B57D21 /* Pods-SampleChiken.release.xcconfig */,
+				29D9E82249596C666AEAE42B /* Pods-SampleChikenUITests.debug.xcconfig */,
+				E04ABFABBF428768C66C1C56 /* Pods-SampleChikenUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7215F9C1B07DD3C047265D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B3B0C2F26F149B4A796342 /* Pods_SampleChiken.framework */,
+				F8649A1FB638B41A21231BE9 /* Pods_SampleChikenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D2884922A7545A003E5F9D /* Build configuration list for PBXNativeTarget "SampleChiken" */;
 			buildPhases = (
+				C27B25309D5900855032E9C1 /* [CP] Check Pods Manifest.lock */,
 				07D2882622A75458003E5F9D /* Sources */,
 				07D2882722A75458003E5F9D /* Frameworks */,
 				07D2882822A75458003E5F9D /* Resources */,
+				466286F99759E1F88C5AC267 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D2884C22A7545A003E5F9D /* Build configuration list for PBXNativeTarget "SampleChikenUITests" */;
 			buildPhases = (
+				F913C49FBB8EAEB09561E713 /* [CP] Check Pods Manifest.lock */,
 				07D2883C22A7545A003E5F9D /* Sources */,
 				07D2883D22A7545A003E5F9D /* Frameworks */,
 				07D2883E22A7545A003E5F9D /* Resources */,
@@ -195,13 +239,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		466286F99759E1F88C5AC267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleChiken/Pods-SampleChiken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleChiken/Pods-SampleChiken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleChiken/Pods-SampleChiken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27B25309D5900855032E9C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleChiken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F913C49FBB8EAEB09561E713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleChikenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07D2882622A75458003E5F9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D2885422A75658003E5F9D /* ForthViewController.swift in Sources */,
 				07D2883222A75458003E5F9D /* SecondViewController.swift in Sources */,
 				07D2882E22A75458003E5F9D /* AppDelegate.swift in Sources */,
+				07D2885222A75485003E5F9D /* CommonViewController.swift in Sources */,
+				07D2885022A7547A003E5F9D /* ThirdViewController.swift in Sources */,
 				07D2883022A75458003E5F9D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +473,7 @@
 		};
 		07D2884A22A7545A003E5F9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52743AB5DE930259ED2C7AC5 /* Pods-SampleChiken.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +492,7 @@
 		};
 		07D2884B22A7545A003E5F9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B3E432C0E28BDF20B57D21 /* Pods-SampleChiken.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +511,7 @@
 		};
 		07D2884D22A7545A003E5F9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D9E82249596C666AEAE42B /* Pods-SampleChikenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,6 +532,7 @@
 		};
 		07D2884E22A7545A003E5F9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04ABFABBF428768C66C1C56 /* Pods-SampleChikenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

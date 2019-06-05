@@ -8,13 +8,18 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: CommonViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tapAction(_ sender: Any) {
+        let vc = ForthViewController()
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
